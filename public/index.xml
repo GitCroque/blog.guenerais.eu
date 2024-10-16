@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Un blog.</title>
-    <link>https://blog.guenerais.eu/</link>
-    <description>Recent content on Un blog.</description>
-    <generator>Hugo</generator>
-    <language>fr</language>
-    <atom:link href="https://blog.guenerais.eu/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+    <channel>
+        <title>My go Site</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on My go Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
 </rss>

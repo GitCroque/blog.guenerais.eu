@@ -1,0 +1,119 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "archetypes",
+      "path": "[[workspace]]/archetypes"
+    },
+    {
+      "title": "hugo-theme-stack",
+      "path": "[[workspace]]/themes/hugo-theme-stack"
+    },
+    {
+      "title": "exampleSite",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite"
+    },
+    {
+      "title": "archetypes",
+      "path": "[[workspace]]/themes/hugo-theme-stack/archetypes"
+    },
+    {
+      "title": "content",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content"
+    },
+    {
+      "title": "placeholder-text",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content/post/placeholder-text"
+    },
+    {
+      "title": "math-typesetting",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content/post/math-typesetting"
+    },
+    {
+      "title": "rich-content",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content/post/rich-content"
+    },
+    {
+      "title": "archives",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content/page/archives"
+    },
+    {
+      "title": "chinese-test",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content/post/chinese-test"
+    },
+    {
+      "title": "Test",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content/categories/Test"
+    },
+    {
+      "title": "emoji-support",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content/post/emoji-support"
+    },
+    {
+      "title": "markdown-syntax",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content/post/markdown-syntax"
+    },
+    {
+      "title": "search",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content/page/search"
+    },
+    {
+      "title": "about",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content/page/about"
+    },
+    {
+      "title": "links",
+      "path": "[[workspace]]/themes/hugo-theme-stack/exampleSite/content/page/links"
+    }
+  ],
+  "frontMatter.git.enabled": true
+}
